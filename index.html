@@ -1,0 +1,44 @@
+Usuario: themisson.servicosocial
+Senha: 10203040
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Notas</title>
+</head>
+
+<body>
+
+    <h1>Controle de Notas</h1>
+
+    <form>
+        <label for="aluno">Nome do aluno:</label><br>
+        <input type="text" id="aluno" name="aluno">
+
+        <br><br>
+
+        <label for="nota1">Nota Um:</label><br>
+        <input type="number" id="nota1" name="nota1" min="0" max="10" step="0.1">
+
+        <br><br>
+
+        <label for="nota2">Nota Dois:</label><br>
+        <input type="number" id="nota2" name="nota2" min="0" max="10" step="0.1">
+
+        <br><br>
+
+        <button type="button">Salvar Notas</button>
+    </form>
+
+    <hr>
+
+    <h2>Resultado</h2>
+
+    <p>Média: <span id="media">-</span></p>
+    <p>Situação: <span id="situacao">-</span></p>
+
+</body>
+
+</html>
